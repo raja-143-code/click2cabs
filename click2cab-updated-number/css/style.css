@@ -391,6 +391,7 @@ footer.site-footer a:hover{ color:var(--stone-yellow); }
     box-shadow:0 -4px 16px rgba(0,0,0,0.12);
   }
   .mobile-bar a{ flex:1; text-align:center; padding:15px 8px; font-weight:700; font-size:0.92rem; display:flex; align-items:center; justify-content:center; gap:8px;}
+   .mobile-bar a svg{ width:20px; height:20px; flex-shrink:0; }
   .mobile-bar a.call{ background:var(--stone-yellow); color:var(--road-blue-deep); }
   .mobile-bar a.wa{ background:var(--whatsapp); color:var(--white); }
   .floating-actions{ bottom:76px; }
